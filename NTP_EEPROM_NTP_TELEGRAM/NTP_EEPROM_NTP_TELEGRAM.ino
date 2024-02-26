@@ -110,9 +110,9 @@ void setup() {
   // Port defaults to 3232
   // ArduinoOTA.setPort(3232);
   // Hostname defaults to esp3232-[MAC]
-  ArduinoOTA.setHostname("Zetta IoT");
+  ArduinoOTA.setHostname("HOSTNAME");
   // No authentication by default
-  ArduinoOTA.setPassword("ZETTAIOTADMIN");
+  ArduinoOTA.setPassword("PASSWORD");
   ArduinoOTA.begin();
 }
 
